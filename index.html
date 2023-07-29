@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cryptocurrency Market Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="navLogo">
+            <h1>CryptoTracker<span>.</span></h1>
+        </div>
+
+        <div class="navMenus">
+            <ul>
+                <li class="menuItems">Home</li>
+                <li class="menuItems">Compare</li>
+                <li class="menuItems">Watchlist</li>
+                <li class="menuItems"><button id="btndash">Dashboard</button></li>
+            </ul>
+        </div>
+        
+    </div>
+
+
+
+    <div class="tabs" >
+        <button id="gridViewTab" class="activeTab">Grid View</button>
+        <button id="listViewTab">List View</button>
+    </div>
+    <div id="dataContainer" class="gridView">
+        <!-- Cryptocurrency data will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

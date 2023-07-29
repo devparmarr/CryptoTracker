@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color :#111111;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    margin-inline: 2vw;
+    
+}
+
+.navMenus{
+    display: flex;
+}
+
+.navMenus ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenus ul li{
+    margin-right: 3vw;
+}
+
+.navLogo span{
+    color: #4A80E2;
+}
+
+#btndash{
+    background-color: #4A80E2;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.activeTab {
+    border-bottom-color: #4A80E2;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.tabs button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.gridView {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gridView .card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1B1B1B;
+}
+
+.listView {
+    width: 85vw;
+}
+
+.listView table th,
+.listView  td {
+    padding: 10px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.listView table th {
+    font-weight: bold;
+}
+
+
+
+
+#gridViewTab{
+    width: 50%;
+}
+
+#listViewTab{
+    width: 50%;
+}
+
+.coin-info{
+    display: flex;
+}
+
+.coin-names{
+    margin-left: 4%;
+    color: #FFFFFF;
+}
+
+.coin-details{
+    color: #FFFFFF;
+}
+
+.coin-details p:nth-child(1){
+    display: inline-block;
+    padding: 5px;
+    border-radius: 75px;
+    border: 2px solid;
+}
+
+.gridView{
+    margin-inline: 3vw;
+}
